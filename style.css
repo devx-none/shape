@@ -1,0 +1,23 @@
+.form{
+    display :flex;
+    margin:40px;
+}
+.shape select {
+    margin:30px;
+    background-color: blueviolet;
+}
+.circle,.rectangle,.carre,.polygone{
+    display: none;
+}
+.circle.active{
+    display: block;
+}
+.rectangle.active{
+    display: block;
+}
+.carre.active{
+    display: block;
+}
+.polygone.active{
+    display: block;
+}
